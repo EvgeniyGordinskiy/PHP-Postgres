@@ -2,5 +2,11 @@
     "name": "incodepc1/work",
     "require": {
         "fzaninotto/faker": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Services\\": "Services/",
+            "App\\": "App/"
+        }
     }
 }
